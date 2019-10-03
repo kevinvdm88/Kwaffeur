@@ -1,0 +1,10 @@
+C:\Kwaffeur\Kwaffeur\Kwaffeur.IntegrationTests\bin\Debug\netcoreapp3.0\Kwaffeur.IntegrationTests.exe
+C:\Kwaffeur\Kwaffeur\Kwaffeur.IntegrationTests\bin\Debug\netcoreapp3.0\Kwaffeur.IntegrationTests.deps.json
+C:\Kwaffeur\Kwaffeur\Kwaffeur.IntegrationTests\bin\Debug\netcoreapp3.0\Kwaffeur.IntegrationTests.runtimeconfig.json
+C:\Kwaffeur\Kwaffeur\Kwaffeur.IntegrationTests\bin\Debug\netcoreapp3.0\Kwaffeur.IntegrationTests.runtimeconfig.dev.json
+C:\Kwaffeur\Kwaffeur\Kwaffeur.IntegrationTests\bin\Debug\netcoreapp3.0\Kwaffeur.IntegrationTests.dll
+C:\Kwaffeur\Kwaffeur\Kwaffeur.IntegrationTests\bin\Debug\netcoreapp3.0\Kwaffeur.IntegrationTests.pdb
+C:\Kwaffeur\Kwaffeur\Kwaffeur.IntegrationTests\obj\Debug\netcoreapp3.0\Kwaffeur.IntegrationTests.AssemblyInfoInputs.cache
+C:\Kwaffeur\Kwaffeur\Kwaffeur.IntegrationTests\obj\Debug\netcoreapp3.0\Kwaffeur.IntegrationTests.AssemblyInfo.cs
+C:\Kwaffeur\Kwaffeur\Kwaffeur.IntegrationTests\obj\Debug\netcoreapp3.0\Kwaffeur.IntegrationTests.dll
+C:\Kwaffeur\Kwaffeur\Kwaffeur.IntegrationTests\obj\Debug\netcoreapp3.0\Kwaffeur.IntegrationTests.pdb
