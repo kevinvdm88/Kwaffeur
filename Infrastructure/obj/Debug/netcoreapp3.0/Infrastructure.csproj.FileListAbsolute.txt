@@ -16,13 +16,13 @@ C:\Kwaffeur\Kwaffeur\Infrastructure\bin\Debug\netcoreapp3.0\Infrastructure.dll
 C:\Kwaffeur\Kwaffeur\Infrastructure\bin\Debug\netcoreapp3.0\Infrastructure.pdb
 C:\Kwaffeur\Kwaffeur\Infrastructure\bin\Debug\netcoreapp3.0\Application.dll
 C:\Kwaffeur\Kwaffeur\Infrastructure\bin\Debug\netcoreapp3.0\Common.dll
+C:\Kwaffeur\Kwaffeur\Infrastructure\bin\Debug\netcoreapp3.0\Domain.dll
 C:\Kwaffeur\Kwaffeur\Infrastructure\bin\Debug\netcoreapp3.0\Application.pdb
 C:\Kwaffeur\Kwaffeur\Infrastructure\bin\Debug\netcoreapp3.0\Common.pdb
+C:\Kwaffeur\Kwaffeur\Infrastructure\bin\Debug\netcoreapp3.0\Domain.pdb
 C:\Kwaffeur\Kwaffeur\Infrastructure\obj\Debug\netcoreapp3.0\Infrastructure.csprojAssemblyReference.cache
 C:\Kwaffeur\Kwaffeur\Infrastructure\obj\Debug\netcoreapp3.0\Infrastructure.AssemblyInfoInputs.cache
 C:\Kwaffeur\Kwaffeur\Infrastructure\obj\Debug\netcoreapp3.0\Infrastructure.AssemblyInfo.cs
 C:\Kwaffeur\Kwaffeur\Infrastructure\obj\Debug\netcoreapp3.0\Infrastructure.csproj.CopyComplete
 C:\Kwaffeur\Kwaffeur\Infrastructure\obj\Debug\netcoreapp3.0\Infrastructure.dll
 C:\Kwaffeur\Kwaffeur\Infrastructure\obj\Debug\netcoreapp3.0\Infrastructure.pdb
-C:\Kwaffeur\Kwaffeur\Infrastructure\bin\Debug\netcoreapp3.0\Domain.dll
-C:\Kwaffeur\Kwaffeur\Infrastructure\bin\Debug\netcoreapp3.0\Domain.pdb

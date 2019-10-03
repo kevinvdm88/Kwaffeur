@@ -1,10 +1,7 @@
 C:\Kwaffeur\Kwaffeur\Persistence\bin\Debug\netcoreapp3.0\Persistence.deps.json
-C:\Kwaffeur\Kwaffeur\Persistence\bin\Debug\netcoreapp3.0\Persistence.dll
-C:\Kwaffeur\Kwaffeur\Persistence\obj\Debug\netcoreapp3.0\Persistence.AssemblyInfoInputs.cache
-C:\Kwaffeur\Kwaffeur\Persistence\obj\Debug\netcoreapp3.0\Persistence.AssemblyInfo.cs
 C:\Kwaffeur\Kwaffeur\Persistence\bin\Debug\netcoreapp3.0\Persistence.runtimeconfig.json
 C:\Kwaffeur\Kwaffeur\Persistence\bin\Debug\netcoreapp3.0\Persistence.runtimeconfig.dev.json
-C:\Kwaffeur\Kwaffeur\Persistence\obj\Debug\netcoreapp3.0\Persistence.csprojAssemblyReference.cache
+C:\Kwaffeur\Kwaffeur\Persistence\bin\Debug\netcoreapp3.0\Persistence.dll
 C:\Kwaffeur\Kwaffeur\Persistence\bin\Debug\netcoreapp3.0\Persistence.pdb
 C:\Kwaffeur\Kwaffeur\Persistence\bin\Debug\netcoreapp3.0\Application.dll
 C:\Kwaffeur\Kwaffeur\Persistence\bin\Debug\netcoreapp3.0\Common.dll
@@ -12,6 +9,9 @@ C:\Kwaffeur\Kwaffeur\Persistence\bin\Debug\netcoreapp3.0\Domain.dll
 C:\Kwaffeur\Kwaffeur\Persistence\bin\Debug\netcoreapp3.0\Application.pdb
 C:\Kwaffeur\Kwaffeur\Persistence\bin\Debug\netcoreapp3.0\Common.pdb
 C:\Kwaffeur\Kwaffeur\Persistence\bin\Debug\netcoreapp3.0\Domain.pdb
+C:\Kwaffeur\Kwaffeur\Persistence\obj\Debug\netcoreapp3.0\Persistence.csprojAssemblyReference.cache
+C:\Kwaffeur\Kwaffeur\Persistence\obj\Debug\netcoreapp3.0\Persistence.AssemblyInfoInputs.cache
+C:\Kwaffeur\Kwaffeur\Persistence\obj\Debug\netcoreapp3.0\Persistence.AssemblyInfo.cs
 C:\Kwaffeur\Kwaffeur\Persistence\obj\Debug\netcoreapp3.0\Persistence.csproj.CopyComplete
 C:\Kwaffeur\Kwaffeur\Persistence\obj\Debug\netcoreapp3.0\Persistence.dll
 C:\Kwaffeur\Kwaffeur\Persistence\obj\Debug\netcoreapp3.0\Persistence.pdb

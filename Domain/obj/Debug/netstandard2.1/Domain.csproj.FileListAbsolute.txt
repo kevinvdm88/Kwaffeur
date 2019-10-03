@@ -1,8 +1,8 @@
 C:\Kwaffeur\Kwaffeur\Domain\bin\Debug\netstandard2.1\Domain.deps.json
 C:\Kwaffeur\Kwaffeur\Domain\bin\Debug\netstandard2.1\Domain.dll
 C:\Kwaffeur\Kwaffeur\Domain\bin\Debug\netstandard2.1\Domain.pdb
+C:\Kwaffeur\Kwaffeur\Domain\obj\Debug\netstandard2.1\Domain.csprojAssemblyReference.cache
 C:\Kwaffeur\Kwaffeur\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfoInputs.cache
 C:\Kwaffeur\Kwaffeur\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfo.cs
 C:\Kwaffeur\Kwaffeur\Domain\obj\Debug\netstandard2.1\Domain.dll
 C:\Kwaffeur\Kwaffeur\Domain\obj\Debug\netstandard2.1\Domain.pdb
-C:\Kwaffeur\Kwaffeur\Domain\obj\Debug\netstandard2.1\Domain.csprojAssemblyReference.cache

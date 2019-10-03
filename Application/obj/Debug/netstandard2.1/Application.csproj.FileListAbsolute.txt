@@ -1,11 +1,11 @@
 C:\Kwaffeur\Kwaffeur\Application\bin\Debug\netstandard2.1\Application.deps.json
 C:\Kwaffeur\Kwaffeur\Application\bin\Debug\netstandard2.1\Application.dll
-C:\Kwaffeur\Kwaffeur\Application\obj\Debug\netstandard2.1\Application.AssemblyInfoInputs.cache
-C:\Kwaffeur\Kwaffeur\Application\obj\Debug\netstandard2.1\Application.AssemblyInfo.cs
 C:\Kwaffeur\Kwaffeur\Application\bin\Debug\netstandard2.1\Application.pdb
-C:\Kwaffeur\Kwaffeur\Application\obj\Debug\netstandard2.1\Application.dll
-C:\Kwaffeur\Kwaffeur\Application\obj\Debug\netstandard2.1\Application.pdb
-C:\Kwaffeur\Kwaffeur\Application\obj\Debug\netstandard2.1\Application.csprojAssemblyReference.cache
 C:\Kwaffeur\Kwaffeur\Application\bin\Debug\netstandard2.1\Domain.dll
 C:\Kwaffeur\Kwaffeur\Application\bin\Debug\netstandard2.1\Domain.pdb
+C:\Kwaffeur\Kwaffeur\Application\obj\Debug\netstandard2.1\Application.csprojAssemblyReference.cache
+C:\Kwaffeur\Kwaffeur\Application\obj\Debug\netstandard2.1\Application.AssemblyInfoInputs.cache
+C:\Kwaffeur\Kwaffeur\Application\obj\Debug\netstandard2.1\Application.AssemblyInfo.cs
 C:\Kwaffeur\Kwaffeur\Application\obj\Debug\netstandard2.1\Application.csproj.CopyComplete
+C:\Kwaffeur\Kwaffeur\Application\obj\Debug\netstandard2.1\Application.dll
+C:\Kwaffeur\Kwaffeur\Application\obj\Debug\netstandard2.1\Application.pdb
