@@ -1,5 +1,4 @@
 ﻿using Kwaffeur.Application.Common.Interfaces;
-using Kwaffeur.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +12,7 @@ namespace Kwaffeur.Persistence
         private readonly IKwaffeurDbContext _context;
         private readonly IUserManager _userManager;
 
-        private readonly Dictionary<int, Employee> Employees = new Dictionary<int, Employee>();
+        //private readonly Dictionary<int, Employee> Employees = new Dictionary<int, Employee>();
         //private readonly Dictionary<int, Supplier> Suppliers = new Dictionary<int, Supplier>();
         //private readonly Dictionary<int, Category> Categories = new Dictionary<int, Category>();
         //private readonly Dictionary<int, Shipper> Shippers = new Dictionary<int, Shipper>();
@@ -38,51 +37,51 @@ namespace Kwaffeur.Persistence
 
             //await SeedTerritoriesAsync(cancellationToken);
 
-            await SeedEmployeesAsync(cancellationToken);
+            //await SeedEmployeesAsync(cancellationToken);
 
-            await SeedUsersAsync(cancellationToken);
+            //await SeedUsersAsync(cancellationToken);
 
 
         }
 
-        private async Task SeedUsersAsync(CancellationToken cancellationToken)
-        {
-            var employees = await _context.Employees
-                .Where(e => e.UserId == null)
-                .ToListAsync(cancellationToken);
+        //private async Task SeedUsersAsync(CancellationToken cancellationToken)
+        //{
+        //    var employees = await _context.Employees
+        //        .Where(e => e.UserId == null)
+        //        .ToListAsync(cancellationToken);
 
-            if (employees.Any())
-            {
-                foreach (var employee in employees)
-                {
-                    var userName = $"{employee.FirstName}@northwind".ToLower();
-                    var userId = await _userManager.CreateUserAsync(userName, "Northwind1!");
-                    employee.UserId = userId;
+        //    if (employees.Any())
+        //    {
+        //        foreach (var employee in employees)
+        //        {
+        //            var userName = $"{employee.FirstName}@northwind".ToLower();
+        //            var userId = await _userManager.CreateUserAsync(userName, "Northwind1!");
+        //            employee.UserId = userId;
 
-                }
+        //        }
 
-                await _context.SaveChangesAsync(cancellationToken);
-            }
-        }
+        //        await _context.SaveChangesAsync(cancellationToken);
+        //    }
+        //}
 
-        private async Task SeedEmployeesAsync(CancellationToken cancellationToken)
-        {
-            Employees.Add(1, new Employee
-            {
-                City = "Test",
-                FirstName = "ab",
-                Country = "Belgium",
-                Extension = "a"
-            });
+        //private async Task SeedEmployeesAsync(CancellationToken cancellationToken)
+        //{
+        //    Employees.Add(1, new Employee
+        //    {
+        //        City = "Test",
+        //        FirstName = "ab",
+        //        Country = "Belgium",
+        //        Extension = "a"
+        //    });
 
 
-            foreach (var employee in Employees.Values)
-            {
-                _context.Employees.Add(employee);
-            }
+        //    foreach (var employee in Employees.Values)
+        //    {
+        //        _context.Employees.Add(employee);
+        //    }
 
-            await _context.SaveChangesAsync(cancellationToken);
-        }
+        //    await _context.SaveChangesAsync(cancellationToken);
+        //}
 
     }
 

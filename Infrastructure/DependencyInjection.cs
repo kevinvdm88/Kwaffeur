@@ -40,7 +40,7 @@ namespace Kwaffeur.Infrastructure
                             ClientId = "Northwind.IntegrationTests",
                             AllowedGrantTypes = { GrantType.ResourceOwnerPassword },
                             ClientSecrets = { new Secret("secret".Sha256()) },
-                            AllowedScopes = { "Northwind.WebUIAPI", "openid", "profile" }
+                            AllowedScopes = { "KwaffeurWeb", "openid", "profile" }
                         });
                     }).AddTestUsers(new List<TestUser>
                     {

@@ -1,7 +1,6 @@
 C:\Kwaffeur\Kwaffeur\Common\bin\Debug\netstandard2.1\Common.deps.json
 C:\Kwaffeur\Kwaffeur\Common\bin\Debug\netstandard2.1\Common.dll
 C:\Kwaffeur\Kwaffeur\Common\bin\Debug\netstandard2.1\Common.pdb
-C:\Kwaffeur\Kwaffeur\Common\obj\Debug\netstandard2.1\Common.csprojAssemblyReference.cache
 C:\Kwaffeur\Kwaffeur\Common\obj\Debug\netstandard2.1\Common.AssemblyInfoInputs.cache
 C:\Kwaffeur\Kwaffeur\Common\obj\Debug\netstandard2.1\Common.AssemblyInfo.cs
 C:\Kwaffeur\Kwaffeur\Common\obj\Debug\netstandard2.1\Common.dll

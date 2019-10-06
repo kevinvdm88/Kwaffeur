@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Kwaffeur.Application.Common.Interfaces;
 using Kwaffeur.Common;
 using Kwaffeur.Domain.Common;
-using Kwaffeur.Domain.Entities;
+using Domain.Entities;
 
 namespace Kwaffeur.Persistence
 {
@@ -28,7 +28,7 @@ namespace Kwaffeur.Persistence
             _dateTime = dateTime;
         }
 
-        public DbSet<Employee> Employees { get; set; }
+        public DbSet<Person> Persons { get; set; }
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
         {

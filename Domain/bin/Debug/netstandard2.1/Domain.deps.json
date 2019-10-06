@@ -9,7 +9,8 @@
     ".NETStandard,Version=v2.1/": {
       "Domain/1.0.0": {
         "dependencies": {
-          "Ardalis.GuardClauses": "1.2.9"
+          "Ardalis.GuardClauses": "1.2.9",
+          "Ardalis.SmartEnum": "1.0.8"
         },
         "runtime": {
           "Domain.dll": {}
@@ -23,6 +24,17 @@
           "lib/netstandard1.1/Ardalis.GuardClauses.dll": {
             "assemblyVersion": "1.2.9.0",
             "fileVersion": "1.2.9.0"
+          }
+        }
+      },
+      "Ardalis.SmartEnum/1.0.8": {
+        "dependencies": {
+          "Ardalis.GuardClauses": "1.2.9"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ardalis.SmartEnum.dll": {
+            "assemblyVersion": "1.0.8.0",
+            "fileVersion": "1.0.8.0"
           }
         }
       },
@@ -843,6 +855,13 @@
       "sha512": "sha512-CahPbrKrsR53tHq41Lk6vlfEeXSEKtlifNh+ev6elL2QduDq58w2iGKXOADOW6kjNJdYmgY3ZGWZu+mJY4fN/Q==",
       "path": "ardalis.guardclauses/1.2.9",
       "hashPath": "ardalis.guardclauses.1.2.9.nupkg.sha512"
+    },
+    "Ardalis.SmartEnum/1.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DlKK9uZrkDd2BVIYT40Ke6Yc54icE/Usfi8O9zTXY547nYXFj7lwxf5OwyZ07NQ8rc7kN5PTraOAN+3E8mZGWQ==",
+      "path": "ardalis.smartenum/1.0.8",
+      "hashPath": "ardalis.smartenum.1.0.8.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
