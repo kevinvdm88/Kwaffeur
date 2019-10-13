@@ -37,7 +37,7 @@ namespace Kwaffeur.Infrastructure
                     {
                         options.Clients.Add(new Client
                         {
-                            ClientId = "Northwind.IntegrationTests",
+                            ClientId = "KwaffeurWeb.IntegrationTests",
                             AllowedGrantTypes = { GrantType.ResourceOwnerPassword },
                             ClientSecrets = { new Secret("secret".Sha256()) },
                             AllowedScopes = { "KwaffeurWeb", "openid", "profile" }
@@ -47,11 +47,11 @@ namespace Kwaffeur.Infrastructure
                         new TestUser
                         {
                             SubjectId = "f26da293-02fb-4c90-be75-e4aa51e0bb17",
-                            Username = "jason@northwind",
-                            Password = "Northwind1!",
+                            Username = "admin@kwaffeur",
+                            Password = "Kwaffeur1!",
                             Claims = new List<Claim>
                             {
-                                new Claim(JwtClaimTypes.Email, "jason@northwind")
+                                new Claim(JwtClaimTypes.Email, "admin@kwaffeur")
                             }
                         }
                     });

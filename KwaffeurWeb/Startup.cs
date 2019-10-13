@@ -64,7 +64,7 @@ namespace KwaffeurWeb
 
             services.AddOpenApiDocument(configure =>
             {
-                configure.Title = "Northwind Traders API";
+                configure.Title = "Kwaffeur API";
             });
 
             _services = services;

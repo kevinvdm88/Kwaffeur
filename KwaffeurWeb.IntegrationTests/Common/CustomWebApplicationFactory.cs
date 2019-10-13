@@ -69,7 +69,7 @@ namespace KwaffeurWeb.IntegrationTests.Common
 
         public async Task<HttpClient> GetAuthenticatedClientAsync()
         {
-            return await GetAuthenticatedClientAsync("jason@northwind", "Northwind1!");
+            return await GetAuthenticatedClientAsync("admin@kwaffeur", "Kwaffeur1!");
         }
 
         public async Task<HttpClient> GetAuthenticatedClientAsync(string userName, string password)
@@ -95,7 +95,7 @@ namespace KwaffeurWeb.IntegrationTests.Common
             var response = await client.RequestPasswordTokenAsync(new PasswordTokenRequest
             {
                 Address = disco.TokenEndpoint,
-                ClientId = "Northwind.IntegrationTests",
+                ClientId = "KwaffeurWeb.IntegrationTests",
                 ClientSecret = "secret",
                 Scope = "KwaffeurWebAPI openid profile",
                 UserName = userName,

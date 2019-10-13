@@ -13,6 +13,7 @@ namespace Domain.Entities
         public Person Person { get; set; }
         public CustomerType CustomerType { get; set; }
         public Address Address { get; set; }
+        public ContactData ContactData { get; set; }
         public bool Active { get; set; }
     }
 }

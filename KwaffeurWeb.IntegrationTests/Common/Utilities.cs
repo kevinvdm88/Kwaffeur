@@ -29,11 +29,13 @@ namespace KwaffeurWeb.IntegrationTest.Common
 
         public static void InitializeDbForTests(KwaffeurDbContext context)
         {
-            context.Persons.Add(new Person
+            context.Customers.Add(new Customer
             {
-                GenderType = GenderType.Male,
-                Name = new Name("Jan", "Janssen"),
-
+                Active = false,
+                CustomerType = Domain.Enums.CustomerType.Professional,
+                Person = new Person("Jan", "Janssen", GenderType.Male),
+                Address = new Address("kerkstraat", "23", "brugge", "West-Vlaanderen", null, null),
+                ContactData = new ContactData("kevin.v@riskmatrix.be", null, "+324700706043", null, null)
             });
             context.SaveChanges();
         }

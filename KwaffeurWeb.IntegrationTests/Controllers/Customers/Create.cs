@@ -1,13 +1,14 @@
-﻿using Application.Persons.Commands.CreatePerson;
-using Domain.Enums;
+﻿using Application.Customers.Commands.CreateCustomer;
 using Domain.ValueObjects;
-using KwaffeurWeb;
 using KwaffeurWeb.IntegrationTest.Common;
 using KwaffeurWeb.IntegrationTests.Common;
+using System;
+using System.Collections.Generic;
+using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace KwaffeurWeb.IntegrationTest.Controllers.Persons
+namespace KwaffeurWeb.IntegrationTests.Controllers.Customers
 {
     public class Create : IClassFixture<CustomWebApplicationFactory<Startup>>
     {
@@ -19,21 +20,22 @@ namespace KwaffeurWeb.IntegrationTest.Controllers.Persons
         }
 
         [Fact]
-        public async Task GivenCreateProductCommand_ReturnsNewProductId()
+        public async Task GivenCreateCustomerCommand_ReturnsNewCustomerId()
         {
             var client = await _factory.GetAuthenticatedClientAsync();
 
-            var command = new CreatePersonCommand
+            var command = new CreateCustomerCommand
             {
-
-                GenderType = GenderType.Male,
-                Name = new Name("Jan", "Janssen"),
-
+                Active = false,
+                CustomerType = Domain.Enums.CustomerType.Professional,
+                Person = new Person("Kevin", "Van der Mieren", Domain.Enums.GenderType.Male),
+                Address = new Address("kerkstraat", "23", "brugge", "West-Vlaanderen", null, null),
+                ContactData = new ContactData("kevin.v@riskmatrix.be", null, "+324700706043", null, null),
             };
 
             var content = Utilities.GetRequestContent(command);
 
-            var response = await client.PostAsync($"/api/persons/create", content);
+            var response = await client.PostAsync($"/api/customers/create", content);
 
             response.EnsureSuccessStatusCode();
 
@@ -41,6 +43,5 @@ namespace KwaffeurWeb.IntegrationTest.Controllers.Persons
 
             Assert.NotEqual(0, productId);
         }
-
     }
 }

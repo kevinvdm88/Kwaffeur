@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace KwaffeurWeb.IntegrationTests.Controllers.Persons
+namespace KwaffeurWeb.IntegrationTests.Controllers.Customers
 {
     public class Delete : IClassFixture<CustomWebApplicationFactory<Startup>>
     {
@@ -16,7 +16,6 @@ namespace KwaffeurWeb.IntegrationTests.Controllers.Persons
         {
             _factory = factory;
         }
-
         [Fact]
         public async Task GivenId_ReturnsSuccessStatusCode()
         {
@@ -24,18 +23,19 @@ namespace KwaffeurWeb.IntegrationTests.Controllers.Persons
 
             var validId = 1;
 
-            var response = await client.DeleteAsync($"/api/persons/delete/{validId}");
+            var response = await client.DeleteAsync($"/api/customers/delete/{validId}");
 
             response.EnsureSuccessStatusCode();
         }
+
         [Fact]
         public async Task GivenInvalidId_ReturnsNotFoundStatusCode()
         {
             var client = await _factory.GetAuthenticatedClientAsync();
 
-            var invalidId = 99898981;
+            var invalidId = 0;
 
-            var response = await client.DeleteAsync($"/api/persons/delete/{invalidId}");
+            var response = await client.DeleteAsync($"/api/customers/delete/{invalidId}");
 
             Assert.Equal(HttpStatusCode.NotFound, response.StatusCode);
         }

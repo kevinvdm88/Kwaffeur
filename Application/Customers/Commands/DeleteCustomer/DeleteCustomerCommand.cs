@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Application.Persons.Commands.DeletePerson
+namespace Application.Customers.Commands.DeleteCustomer
 {
-    public class DeletePersonCommand : IRequest
+    public class DeleteCustomerCommand : IRequest
     {
         public int Id { get; set; }
     }

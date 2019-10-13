@@ -7,8 +7,7 @@ namespace Kwaffeur.Application.Common.Interfaces
 {
     public interface IKwaffeurDbContext
     {
-        DbSet<Person> Persons { get; set; }
-
+        DbSet<Customer> Customers { get; set; }
 
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
     }

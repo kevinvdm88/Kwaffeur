@@ -9,10 +9,10 @@ namespace Application.Common.Exceptions
 {
     public static class GuardExtensions
     {
-        public static void NullPerson(this IGuardClause guardClause, int personId, Person person)
+        public static void NullCustomer(this IGuardClause guardClause, int customerId, Customer customer)
         {
-            if (person == null)
-                throw new NotFoundException(nameof(Person), personId);
+            if (customer == null)
+                throw new NotFoundException(nameof(Customer), customerId);
         }
     }
 }

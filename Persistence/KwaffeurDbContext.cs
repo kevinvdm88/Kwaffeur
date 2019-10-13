@@ -28,7 +28,7 @@ namespace Kwaffeur.Persistence
             _dateTime = dateTime;
         }
 
-        public DbSet<Person> Persons { get; set; }
+        public DbSet<Customer> Customers { get; set; }
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
         {
@@ -38,13 +38,14 @@ namespace Kwaffeur.Persistence
             {
                 if (entry.State == EntityState.Added)
                 {
-                    entry.Entity.CreatedBy = _currentUserService.GetUserId();
+                    entry.Entity.CreatedBy = _currentUserService.GetUserId() ?? string.Empty;
+                    ;
                     entry.Entity.Created = _dateTime.Now;
 
                 }
                 else if (entry.State == EntityState.Modified)
                 {
-                    entry.Entity.LastModifiedBy = _currentUserService.GetUserId();
+                    entry.Entity.LastModifiedBy = _currentUserService.GetUserId() ?? string.Empty;
                     entry.Entity.LastModified = _dateTime.Now;
                 }
             }
